@@ -1,0 +1,120 @@
+Download Linux:
+Ubuntu Linux OS Link:
+https://ubuntu.com/#download
+
+For only Low end PC:(FOR 4GB RAM)
+https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.3-desktop-amd64.iso
+
+
+Download Virtualbox:
+https://www.virtualbox.org/wiki/Downloads
+And Install it.
+
+__________________________________________________
+BSD,System V
+GPL -> General Public License
+GNU ->Gnu Not Unix
+_________________________________________________
+Distribution/Distros:
+->Linux Derivatives
+Linux-> Debian ->(Ubuntu->Mint),Kali Linux
+        Redhat ->CentOS,Fedora
+        Arch->BlackArch,Manjaro
+        Suse ->Opensuse
+        Slackware ->RescueCD,OPHcrack
+        Android
+Checkout on this website:
+https://distrowatch.com/
+
+Test Distributions:
+https://distrotest.net/
+
+___________________________________________________________
+sid@sid-PC:~$ 
+username@hostname:PATH$
+~ ->Home directory
+$ ->Normal User
+# ->Root user
+
+Notes:
+->Linux is case sensitive
+
+Path:
+Windows Path:
+C:\Users\Sid\SomeFolder
+
+Linux Path:
+/home/sid
+First / -> Root Directory
+home/sid -> sid is the Home directory
+
+Absolute Path:
+->Starts from /
+
+Relative Path:
+
+
+Commands:
+ls -> List the file/Directories
+pwd -> Present Working Directory
+cd -> change directory
+e.g:
+cd folder_name -> going inside a directory
+cd .. -> Going outside a directory
+mkdir ->Create directory
+e.g:
+mkfdir folder_name
+cat ->Read content of file
+e.g:
+cat filename
+touch ->Create empty files
+e.g:
+touch filename
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

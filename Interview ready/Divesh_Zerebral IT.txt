@@ -1,0 +1,53 @@
+Round 1:
+What is processor?
+Different processor availables.
+What is super class?
+Class variables
+What is IDE?
+Interface & explain
+constructor uses
+abstract class vs interface
+What is Process? Explain multiprocession & multithreading
+Thread?
+What is Ram?
+Scheduling algorithm & explain anyone u know?
+What is kernel? Purpose of it?
+
+
+Data structures:
+Arraylist vs linked list, which is best n why?
+Vector vs stack
+thn what is stack xplain in brief
+Working of data structures? How it stores in memory?
+Differnt linear searching algo? (I told I know abt only linear search)
+WHich sorting algo is fastest and why?
+Binary sort explain
+Binary tree xplain?
+
+
+SQL
+Joins types & xplain cartesian join
+Why we use index?
+Sub-divisions of SQL
+ACID properties
+
+
+Networking: 
+IPv6?
+Diff btw Ipv4 n IPv6?
+Piping
+Paging
+Diff topology types
+What are the HTTP and the HTTPS protocol?
+What is firewall?
+
+
+
+Round 2:
+First 15 min is on Core java
+Literally asked about 60% of java
+
+Then 5-6 algorithms on live problems like 
+1. To solve given math equations
+2. Ques on selection sorting 
+3. Write pseudocode for 2-3 word problems

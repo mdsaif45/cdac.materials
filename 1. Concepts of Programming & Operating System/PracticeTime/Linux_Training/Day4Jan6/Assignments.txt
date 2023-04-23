@@ -1,0 +1,27 @@
+1.Redirect the output of ls -l to file.txt
+2.Append the output of dmesg command to file.txt
+3.Copy the content of file.txt to new_file.txt
+4.Find number of lines in new_file.txt
+5.Find all lines starting with 'd' in file.txt
+6.Find 'cpu' character in file.txt
+7.Find "CPU0",CPU1,CPU2, word in file.txt
+8.Find "acpi" in file.txt
+9.Find all words starting with '0x' and ending with 0 in file.txt
+10.Read the manual and of command cal and date
+11.Print the calender of given year
+12.Read the manual of command uname,who,whoami,rmdir,head,tail,whatis
+13.Print first 20 lines of file.txt using head
+14.Print last 20 lines of file.txt using tail
+
+
+
+1.Download https://corgis-edu.github.io/corgis/csv/cars/ csv file from this page.
+2.Find all lines with "All-wheel drive"
+3.Find all lines with "Gasoline"
+4.Find all lines which have Audi and 8 cylinder
+5.Find all lines with "Front-wheel drive" and "Trubo".
+
+6.Print all files ending with .txt in current directory.
+7.Print count of lines with "8 cylinder" from cars.csv
+8.Store top 5 lines from cars.csv to file.txt
+

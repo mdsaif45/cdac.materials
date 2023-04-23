@@ -1,0 +1,128 @@
+# DS DAY-05:
+
++ Operations on slll:
+ - delete node at first position
+ - delete node at last position
+ - delete node at specific position
+ - search and delete : linear search
+ - to display linked list in reverse order by using recursion
+ - to reverse the linked list
+ - limitations of slll
+ - operations on scll:
+ 
++ limitations of scll:
+- in scll, addLast(), addFirst(), deleteLast() & deleteFirst() operations are not efficient as it takes O(n) time.
+- we can traverse scll only in a forward direction
+- prev node of any node cannot be accessed from it
+
+- to overcome limitations of singly linked list (slll & scll) doubly linked list has been designed.
+
+
+"doubly linear linked list": it is a type of linked list in which,
+- head always contains an addr of first node if list is not empty
+- each node has 3 parts:
+ i. data part : contains actual data of any primtive/non-primitive type
+ ii. next part (ref) : contains reference of its next node
+ iii. prev part (ref): contains reference of its prev node
+- prev part of first node and next part of last node points to null.
+
+- all operations that we performed on slll, can be applied as it is on dlll, only we need to maintained forward link as well as backward link of each node.
+
+
++ limitations of dlll:
+- in dlll, addLast() and deleteLast() operations are not efficient as it takes O(n) time.
+- we can start traversal only from first node in O(1) time.
+
+- to overcome limitations of dlll, dcll linked list has been designed.
+
+"doubly circular linked list": it is a type of linked list in which,
+- head always contains an addr of first node if list is not empty
+- each node has 3 parts:
+ i. data part : contains actual data of any primtive/non-primitive type
+ ii. next part (ref) : contains reference of its next node
+ iii. prev part (ref): contains reference of its prev node
+- prev part of first node points to last node and next part of last node points to first node.
+
+Collection LinkedList => DCLL - generics 
+
+
+class Employee{
+	//data members
+	//methods
+}	
+
+class LinkedList{
+
+	static class Node{
+		Employee data;//data part of a node is of type Employee class object
+		Node next;
+		Node prev;
+	}
+	
+	
+	
+	.....
+}
+
+
++ applications of linked list:
+1. linked list is used to imnplement basic data structures like stack, queue, priority queue, deque etc...
+2. linked list is used to imnplement advanced data structures like tree, graph & hash table.
+3. linked list is used in an OS to implement kernel data structures lik job queue, ready queue, kernel linked list, iNode list (linked list of FCB's ) etc....
+4. undo & redo functionalities of an OS
+etc...
+
+
++ difference between array & linked list:
+1. array is "static", whereas linked list "dynamic"
+2. addition and deletion operations on an array are not efficient as it takes O(n) time, whereas addition & deletion operations on linked list can be performed efficiently in O(1) time and are convenient as well.
+3. array elements can be accessed by using "random access method" which is efficient than "sequential access method" used in linked list.
+4. searching operation can be performed on an array efficiently as we can apply binary search on it, whereas on linked list we can perform only linear search.
+5. to store "n" no. of elements in an array it takes less space than to store "n" no. of elements in a linked list as we have maintained link between element in it explicitly which takes extra space.
+6. array ele's gets stored into memory in data section/stack section, whereas linked list elements gets stored into the memory in the heap section.
+7. as array elements gets stored into the memory at contiguos locations, to maintain link between array elements is the job compiler, whereas to maintained link between elements is the job of programmer, we have to explicitly maintained link between nodes in a list.
+
+
+
++ "Stack": it is a basic/linear data structure, which is a collection/list of logically related similar type of data elements in which elements can be added as well as deleted from only one end referred as top end.
+
+- in this list, element which was inserted last can only be deleted first, so this list works in "last in first out" / "first in last out" manner, hence stack is also called as
+LIFO list/FILO list.
+
+- We can perform basic 3 operations onto the Stack in O(1) time:
+1. Push : to add/insert an element onto the stack from top end
+2. Pop  : to delete/remove an element from the stack which is at top end
+3. Peek : to get the value of an element which is at top end (without Push/Pop of an element).
+
+- Stack can be implemented by 2 ways:
+1. static implementation of stack (by using an array) => static stack
+2. dynamic implementation of stack (by using linked list) => dynamic stack
+
+"adaptor": as stack can be static as well as dynamic, as it adopts the feature of data structure by using which we implement it.
+
+1. static implementation of stack (by using an array) => static stack:
+
+	int arr[ 5 ];
+	int top;
+
+
+	arr : int [] - non-primitive data type
+	top : int - primitive data type
+	
+
+1. Push : to add/insert an element onto the stack from top end:
+step-1: check stack is not full (if stack is not full then only element can be pushed onto the stack from top end).
+step-2: increment the value of top by 1
+step-3: insert an element onto the stack at top end
+
+
+2. Pop  : to delete/remove an element from the stack which is at top end
+step-1: check stack is not empty (if stack is not empty then only element can be pop from the stack which is at top end).
+step-2: decrement the value of by 1 [ by decrementing value of top by 1 we are achieving deletion of an element from the stack ].
+
+
+3. Peek : to get the value of an element which is at top end (without Push/Pop of an element).
+step-1: check stack is not empty (if stack is not empty then only element can be peeked from the stack which is at top end).
+step-2: return/get the value of an element at top end [ without increment/decrement top ].
+
+

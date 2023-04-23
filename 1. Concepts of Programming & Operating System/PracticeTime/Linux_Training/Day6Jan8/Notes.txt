@@ -1,0 +1,136 @@
+Control Structure:
+Syntax:
+if [[ condition ]];
+then
+    #Statements
+fi
+
+if [[ condition ]];
+then
+    #statements
+else
+   #statements
+fi
+
+if [[ conditions]]
+then
+    #statements
+elif [[ conditions]]
+    #statements
+else
+    #statements
+fi
+
+
+Airthmatic Conditions:
+-gt -> greater than
+-lt -> less than
+-eq -> equal to
+-ne -> not equal to
+-ge -> greater than and equal to
+-le -> less than and equal to
+
+String conditions:
+$str1 == $str2 -> equal to
+$str1 != $str2 -> NOt equal to
+-z $str ->empty string
+-n $str -> non empty string
+
+File conditions:
+-r -> returns true if file is readable
+-w -> returns true if file is writable
+-x -> returns true if file is executable
+-d -> returns true if that file is directory
+-f -> returns true if that file is refular file
+
+Another syntax for numerical comparision:
+if (( conditions ))
+then
+    #statements
+fi
+->here we can airthmatic operators in conditions like <,>,<=,>=,==,!=
+____________________________________________________________________________
+Loops:
+while loop:
+while [[ condition ]]
+do
+    #statements
+done
+
+-> We can use [[ ]] for conditions and (( )) also
+-> [[ ]] means you not airthmatic operators
+-> (( )) means you not airthmatic operators
+
+for Loop:
+for (( i=0;i<10;i++))
+do
+    #statements
+done
+
+
+
+___________________________________________________________________________
+Switch Case:
+case $variable in 
+    string) #statements
+        ;;
+    string) #statements
+        ;;
+    *) #statements
+        ;;
+esac
+
+->Last * is default conditions
+
+case $variable in 
+    string) #statements
+        ;;
+    string|string) #statements
+        ;;
+    *) #statements
+        ;;
+esac
+
+->here compraring variable with either of these two string
+____________________________________________________________________________
+Strings:
+name="Siddhant"
+#     01234567 Postive indexing
+#     87654321 Negative indexing line -1,-2,-3....
+#print string
+echo $name
+echo ${name}
+
+#Slicing
+#Syntax ${variable:startIndex:count}
+echo "First Index :  ${name:0:1}"
+echo "First three characters : ${name:0:3}"
+echo "Two chars from 3 index : ${name:3:2}"
+echo "First four chars : ${name::4}" #If startIndex is 0 no need to mention it
+
+#Negative Count slicing
+#Negative count means Dont select chars from end
+echo "String without last two chars : ${name:0:-2}"
+
+#Negative Indexing
+#Put negative index in () always
+echo "three Chars from last: ${name:(-3):3}"
+echo "Four chars from -6 index: ${name:(-6):4}"
+
+#Length of string
+echo "length of string: ${#name}" #Here # before name gives us the length of string
+
+
+___________________________________________________________________________
+Subcommands:
+->Execute command inside a command and place the output of command there
+-> use backtick or $() 
+e.g
+mkdir `echo "temp"`
+cal $(date +%Y)
+
+
+
+
+
+

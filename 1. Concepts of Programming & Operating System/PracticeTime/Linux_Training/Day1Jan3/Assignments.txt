@@ -1,0 +1,12 @@
+1.Create a directory sample
+2.Go inside  sample directory
+3.Create directory with your name
+4.Check the list of directories here
+5.Go outside of current directory
+
+6.Create data1->data2->data3->data4 directory
+7.Go to data4
+8.Create data5 dir inside data3
+9.Create a.txt,b.txt file inside data1
+10.Create c.txt d.txt file inside data5
+

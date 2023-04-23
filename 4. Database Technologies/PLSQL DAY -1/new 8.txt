@@ -1,0 +1,98 @@
+create table worker(worker_id number, Name varchar(20), Address varchar(20));
+ 
+SQL> insert into worker values
+  2  (1, 'John', 'Lakeview');
+
+1 row created.
+
+SQL> insert into worker values
+  2  (2, 'Jacob', 'Mountain Shadow');
+
+1 row created.
+
+SQL> insert into worker values
+  2  (3, 'Hary', 'Green Valley');
+
+1 row created.
+
+SQL> insert into worker values
+  2  (4, 'Henry', 'Lake View');
+
+1 row created.
+ 
+ 
+ create table workskill(worker_id number, skill varchar(20));
+ 
+SQL> insert into workskill values(1, 'Gold Smith');
+
+1 row created.
+
+SQL> insert into workskill values(1, 'Tin Smith');
+
+1 row created.
+
+SQL> insert into workskill values(2, 'Carpenter');
+
+1 row created.
+
+SQL> insert into workskill values(2, 'Barber');
+
+1 row created.
+
+SQL> insert into workskill values(2, 'Weaver');
+
+1 row created.
+
+SQL> insert into workskill values(3, 'Farmer');
+
+1 row created.
+
+SQL> insert into workskill values(4, 'Painter');
+
+
+ 
+ 
+ select name, address, skill from worker w, workskill s
+ where w.worker_id = s.worker_id and w.worker_id in (
+ select worker_id from workskill group by worker_id having count(*)>1)
+ order by w.name;
+ 
+drop procedure temp;
+create or replace procedure sayhello() 
+begin
+select "Welcome" from dual;
+end sayhello;
+/
+exec sayhello();
+
+
+SHOW COLUMNS FROM learn.worker WHERE `worker_id` = "PRI";
+
+create procedure checkP()
+begin
+	declare val = select * from user_cons_columns where table_name = 'worker';
+	
+	IF val=NULL
+	then	select val;
+	else    select "No primary Key";
+	IF END
+end//
+
+
+
+1. To display the primary key in a table we can execute any of the following command:
+
+	SHOW COLUMNS FROM <database_name>.<table_name> WHERE `Key` = "PRI";
+
+	SHOW { KEYS | INDEXES | INDEX } FROM <database_name>.<table_name> WHERE Key_name = 'PRIMARY';
+	SELECT k.column_name, t.table_name, t.table_schema, t.constraint_type FROM information_schema.table_constraints t JOIN information_schema.key_column_usage k USING ( constraint_name, table_schema, table_name ) WHERE t.constraint_type = 'PRIMARY KEY' AND t.table_schema = '<database_name>' AND t.table_name='<table_name>';
+
+
+2. To display the primary key of a database we need to execute the following command:
+
+SELECT k.column_name, t.table_name, t.table_schema, t.constraint_type
+FROM information_schema.table_constraints t
+JOIN information_schema.key_column_usage k
+USING ( constraint_name, table_schema, table_name )
+WHERE t.constraint_type = 'PRIMARY KEY'
+AND t.table_schema = '<database_name>'

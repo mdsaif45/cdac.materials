@@ -1,0 +1,187 @@
+User Management:
+->Adding User : useradd,adduser
+->Deleting user : userdel
+->Modifying user : usermod
+
+Config files:
+/etc/passwd ->user details
+/etc/shadow ->user passwords
+/etc/group -> group details
+
+sid:x:1000:1000:sid,,,:/home/sid:/bin/bash
+username:LinkToShadowFile:UserID:GroupID:INFO:HomeDirectoryPath:ShellPath
+
+UserId:Unique Identifier given to each user
+GroupId:Unique Identifier given to each group
+
+
+Root User:
+->User with all the permissions
+->name is always root
+->We cannnot create or delete root user
+->Home directory of root user is /root
+->UID of root user is 0
+How to login with root user?
+For Ubuntu:
+sudo su
+
+For other Linux:
+su - root
+
+
+Groups:
+->Groups consist of users
+->Here group got ID and name
+->When you create a user Linux create a group with the username.And this group becomes primary group of the new user
+->Primary group means first group of the new user
+->GID of root group is 0
+
+How to get groups of current user?
+groups
+
+Sudo Group:
+->There's a command also with name sudo
+->To access sudo command you must be part of sudo group
+->Sudo group provides you root user privileges
+
+
+How to Login with user?
+su - username
+
+Set Password:
+passwd username
+
+Logout:
+exit
+
+Adding user:
+Add new user
+useradd username
+
+Add new user with comment/Info
+useradd -c comment username
+
+Add new user with given user id
+useradd -u 2000 username
+
+Add new user with given SHell
+useradd -s /bin/bash username
+
+Add new user with given group ID
+useradd -g 2000 username
+
+Add new user with different Home directory path
+useradd -d /tmp/test username
+
+Add new user without Home directory
+useradd -M username
+
+Add new user with expiry Date
+useradd -e 2022-30-01 username
+
+Add user to groups:
+useradd -G avahi,lp,lpadmin username
+
+
+Deleting User:
+userdel username
+
+Modifying User:
+Modify user with comment/Info
+usermod -c comment username
+
+Modify user with given user id
+usermod -u 2000 username
+
+Modify user with given SHell
+usermod -s /bin/bash username
+
+Modify user with given group ID
+usermod -g 2000 username
+
+Modify user with different Home directory path
+usermod -d /tmp/test username
+
+Modify user with expiry Date
+usermod -e 2022-30-01 username
+
+Modify The user groups
+usermod -a -G sudo,lp username
+
+HOw to deactivate a user?
+Change user shell to /usr/sbin/nologin
+
+How to activate a user
+Change user shell to /bin/bash or /bin/sh
+
+
+adduser:Adding user with automated script which creates home direcvtory add new user to few groups and works in interactive mode
+
+
+Change owner of file:
+chown username filename
+
+Change group of the file:
+chgrp groupname filename
+
+Change both at a time:
+chown username:groupname filename
+
+___________________________________________________
+Editors:
+GUI:
+notepad(Windows)
+Gedit(Ubuntu),Pluma(Ubuntu Mate),featherpad,Kate,Xed,mousepad
+
+CLI:
+nano,vi,vim,ed
+
+nano filename -> open or create the file
+ctrl + o -> save the file
+ctrl + x -> exit the file
+______________________________________________________
+Bash Shell scripting:
+->Automate the task
+->Always write shebang at the top of script file
+#!/bin/bash
+->Shebang means which program/interpreter to use to execute this file
+
+
+Execution step:
+->Give Executable permission to the user first time
+->Two ways of execution
+./filename
+bash filename
+
+
+
+Print on terminal:
+echo "string"
+
+Comments:
+#Single line comments
+
+Variables:
+->No datatypes
+->everything is string
+->Here just initialize the variable to create the variable
+a=10 #valid We must not provide any space during assignment
+->Use $ with the variable when using it
+echo "THis is $a" #here it can print the value of $a  beacause of double quotes
+echo 'This is $a' #here it'll treat $a part of string because of single quotes
+
+User Input:
+read variable
+
+Airthmatic Operation
+$((expression))
+->$ symbol is not compulsary in expression
+Operators:
++,-,/,*,%,<,>,<=,>=,==,!=,++,--
+
+
+
+
+
+
+

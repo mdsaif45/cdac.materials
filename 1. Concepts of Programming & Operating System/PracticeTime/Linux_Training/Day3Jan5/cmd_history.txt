@@ -1,0 +1,123 @@
+463  cd linux_demo/
+  464  ls
+  465  ls -a
+  466  cd ~
+  467  ls -a
+  468  cd linux_demo/
+  469  cd ..
+  470  cd linux_demo/
+  471  cd .
+  472  ped
+  473  pwd
+  474  ls
+  475* cd data2/data1/
+  476  pwd
+  477  cd ../..
+  478  tree
+  479  sudo apt install tree
+  480  ls
+  481  tree
+  482  touch data2/data1/a.txt
+  483  tree
+  484  mkdir data1/data3
+  485  tree
+  486  cp data2/data1/a.txt data1/data3/
+  487  tree
+  488  mkdir data1/data/data4
+  489  mkdir data1/data3/data4
+  490  tree
+  491  cd data1/data3/data4
+  492  touch ../../../data2/data1/b.txt
+  493  cp ../../../data2/data1/b.txt .
+  494  ls
+  495  cd ../../../
+  496  tree
+  497  mkdir x1/x2/x3
+  498  mkdir x1
+  499  mkdir x1/x2
+  500  mkdir x1/x2/x3
+  501  mkdir data5/data5/data7
+  502  mkdir -p data5/data6/data7
+  503  tree
+  504  cal
+  505  date
+  506  who
+  507  whoami
+  508  uname
+  509  uname -a
+  510  cal
+  511  man cal 
+  512  cal -3
+  513  cal -w
+  514  man cal 
+  515  cal -3
+  516  man cal 
+  517  cal 2010
+  518  cal Jan 2010
+  519  man cal 
+  520  ncal 
+  521  ncal -w
+  522  date
+  523  man date
+  524  date %c
+  525  date +%c
+  526  man date
+  527  date +%c
+  528  man date
+  529  date +%D
+  530  date +%d
+  531  man date
+  532  date +%d-%B
+  533  date +%d-%B-%c
+  534  date +%d-%B-%C
+  535  date +%d-%B-%Y
+  536  date +%d-%B/%Y
+  537  man date
+  538  date +%d-%B/%Y--%h
+  539  date +%d-%B/%Y--%H
+  540  uname -a
+  541  uname -a > system_details.txt
+  542  ls
+  543  cat system_details.txt 
+  544  ls -l
+  545  ls -l > file_list.txt
+  546  ls 
+  547  cat file_list.txt 
+  548  uname -a > file_list.txt 
+  549  cat file_list.txt 
+  550  ls -l > file_list.txt
+  551  cat file_list.txt 
+  552  uname -a >> file_list.txt 
+  553  cat file_list.txt 
+  554  cal >> file_list.txt 
+  555  cat file_list.txt 
+  556  dmesg
+  557  dmesg > log.txt
+  558  ls
+  559  cat log.txt 
+  560  wc log.txt 
+  561  more log.txt 
+  562  less log.txt 
+  563  head log.txt 
+  564  tail log.txt 
+  565  tail -n 100 log.txt 
+  566  tail -n 50 log.txt 
+  567  tail -n 10 log.txt 
+  568  tail -n 30 log.txt 
+  569  ls -l
+  570  chmod o+w data1
+  571  ls -l
+  572  chmod g-w data1
+  573  ls -l
+  574  chmod g-x data1
+  575  ls -l
+  576  chmod 766 file.txt
+  577  ls -l
+  578  chmod 760 file.txt
+  579  ls -l
+  580  free 
+  581  free  > memory.txt
+  582  df
+  583  df >> memory.txt 
+  584  history 
+

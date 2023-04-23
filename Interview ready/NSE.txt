@@ -1,0 +1,165 @@
+ Linux commad
+SQL queries basic
+Computer Network
+Basics
+Difference between c ++ java
+ C cpp ke questions puchte hai 
+Then polymorphism 
+Hashmap program and explain hashmap 
+Method overload... method overriding... 
+Tcp/ip 
+Osi model 
+FTP 
+SFTP 
+Pointers in c cpp java
+Sql commands 
+View 
+Explain whole project
+Main method overloading
+ Linux commands 
+Shell scripting
+And pwd 
+Then create directory ka command
+ Started from basic collection que
+Then they will ask about whether u are familiar with linux and C
+Que for C- Pointers, Features, Structures, Constructors and Destructors
+Que for Linux- Its command....Kernel....Which shells used in linux...Basic components
+And one sql query
+ Mera index it  and all tha 
+Like 2 people were there
+Full speed mein puchte hai to understand what knowledge you own
+ Nse hr round
+Introduction 
+Information about your family 
+Are you aware of mumbai
+Have you ever been to mumbai 
+Why IT industry
+ Linux basic commands
+ Nse second round 
+
+All about c programming
+Project BE 
+And cdac project too
+All hr questions
+ For nse 2 round
+Linux command cd
+Cd.
+Cd..
+Program on pointers
+Memory allocation in c
+String program
+ C language.... Built in functions, pointers,
+ For sql drop truncate... N basic
+ function declaration & defination
+typecasting
+dangling pointer
+dynamic memory allocation
+TCP & UDP 
+list some linux commands
+what is grep command
+SQL queries
+drop table
+diff delete truncate & drop
+diff bet call by value & call by reference
+ NSE Infofeed ke liye mainly c n Linux he chahiye
+ Intro 
+Project in detail
+Collection
+Oop concepts
+==  . equals() diff
+Database query
+Join
+String program occurnce of letter
+ l2 
+override equals method Program or logic
+what is cd in linux
+
+directory:X/Y/Z
+on this when we apply cd.. comand what is the current directory
+any question?
+ Family background
+Where u stay
+Trading??
+Basic questions
+If candidate is non IT then why should u switch the stream?
+ Project
+ Encryption
+ Decryption
+ Encoding decoding
+ 2 programs,share screen and type
+SHA algo
+Hashing
+ Flow of project
+Linux basic commands 
+Scenario que 
+View 
+Trigger
+Index 
+Normalisation
+Different btn delete and drop
+ project 
+command linux
+primary key , forgien key, constraints, basic query, 
+index, view, constructor, types of constructor, static keyword, 
+why IT you choose?
+ Pointers in c 
+Structure in c
+What is the different data data types in c
+Dangling
+Write any code in C
+Without main method how can we execute code
+Sql
+What is sql 
+What is join - explain cross join full join Cartesian join
+Query Delete for perticular position
+Delete column query 
+Alter, truncate 
+Trigger
+Different queries for update delete
+ Project
+Multitthreading
+Deadlock
+Swapping of 3 no without using 3rd var
+Linux command
+Hobbies
+Why it
+NSE ke bare me bataoo
+ Trading ,-sudeendra panel
+What is multi threading
+How may way you create thread 
+Mosty threading pe scenario dete he 
+Collections treemap treeset
+How you calculate time complexity of program
+Types of data structures 
+Tree traversal
+ Project
+Access specifier
+Oops
+Almost 30 command linux
+Database join and simple query
+ L1
+project
+technologies used
+OOPS concepts
+exception handling
+Thread life cycle
+1 program on numbers
+Deadlock/ prevention etc
+OS...types...working
+Bootstrap program working on switch on process
+Linux commands
+cd/cd./pwd/cat etc
+Tcl/udl 
+malloc 
+Normalization 
+Joins
+1 query
+ L2
+Project/role/responsibilities/
+tech. used
+flow
+difficulties
+Fav. tech.....ques from that
+Java- Multithreading/ exception handling keywords
+framework used-ques from tht... spring IOC vs MVC ...DI...why spring boot 
+then all HR type ques

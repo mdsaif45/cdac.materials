@@ -1,0 +1,201 @@
+drop function if exists findmax//
+create function findmax(dno int) returns int deterministic
+begin
+
+declare  v_max int ; 
+
+select max(sal) into v_max from emp where deptno = dno;
+return v_max;
+end //
+
+select findmax(10)//
+
+use edac//
+
+
+drop procedure sayHello//
+create procedure sayHello()
+begin
+  select "welcome to mysql ";
+end //
+
+call sayHello()//
+
+drop procedure GetEmployee//
+
+create procedure GetEmployee(in eno int)
+begin
+declare v_sal int default 0;
+
+  select sal into v_sal from emp where empno = eno;
+  select  v_sal "salary";
+end //
+
+call GetEmployee(7698)//
+
+
+create procedure GetSal(in eno int)
+begin
+declare v_sal int default 0;
+  select sal into v_sal from emp where empno = eno;
+  select  v_sal "salary";
+end //
+
+call GetEmployee(7698)//
+
+-----------------------------------------------------------------------
+1) // get employee details
+
+create procedure getEmployee()
+begin
+select * from emp;
+select * from emp where empno = 7698;
+select * from emp where deptno = 30;
+end //
+
+call getEmployee()//
+
+2) //get perticuler employee details giving empno
+
+drop procedure getEmployee//
+
+create procedure getEmployee(in eno int)
+begin
+select empno,ename,sal from emp where empno = eno;
+end //
+
+call getEmployee(7698)//
+
+// using in parameter get the count of record
+
+drop procedure getEmployee//
+create procedure getEmployee( IN dno int)
+begin
+select count(*)  from emp where deptno  = dno;
+end //
+
+call getEmployee(30)//
+
+
+---------------------------------------------
+drop procedure getmaxsal//
+create procedure getmaxsal( IN dno int)
+begin
+select empno ,ename, sal from emp where sal = (select max(sal)  from emp where deptno  = dno);
+end //
+
+call getmaxsal(30)//
+
+
+
+create procedure getEmployeeName(in eno int, out p_name varchar(20))
+begin
+
+select ename into p_name from emp where empno = eno;
+
+end //
+
+--------------------------------------------------------------------------
+drop procedure getEmployeeName//
+
+create procedure getEmployeeName(in eno int, out p_name varchar(20))
+begin
+
+select ename into p_name from emp where empno = eno;
+
+end //
+
+set @name = ''//
+call getEmployeeName(7698, @name)//
+
+select @name//
+------------------------------------------------------------------------------
+
+-- caller is sending data to the procedure
+-- out parameter- procedure is sending data to the caller
+-- select into - used to hold the table data to the local variable
+------------------------------------------------------------------------
+find result using select into - only display on console
+drop procedure findResult//
+  create procedure findResult(in sno int)
+  begin
+    declare p_mark int default 0;
+    declare result varchar(20);
+    
+    select mark into p_mark from stu where sid=sno;
+        
+        if p_mark>40 then
+                set result = "pass";
+        else
+				set result = "fail";
+        end if;
+     select sno, p_mark, result;
+     end//
+  
+  call findResult(1003)//
+  
+------------------------------------------------------------------------
+find result using select into - send result back to clinet  
+  
+  drop procedure findResult//
+  create procedure findResult(in sno int,out result varchar(20))
+  begin
+    declare p_mark int default 0;
+    
+    
+    select mark into p_mark from stu where sid=sno;
+        
+        if p_mark>40 then
+                set result = "pass";
+        else
+				set result = "fail";
+        end if;
+     
+     end//
+  
+  set @id =1003//
+  call findResult(@id, @result)//
+  
+  select @id as "stuid" , @result as "result"//
+  
+  
+// using cursor
+
+ drop procedure findResultforall//
+ create procedure findResultforall()
+ begin
+ declare p_sid int;
+ declare p_sname varchar(20);
+ declare p_mark int;
+ declare result varchar(20);
+ declare eof int default 0;
+ declare c1 cursor for select sid,sname,mark from stu;
+ declare continue handler for not found set eof = 1;
+ open c1;
+ findresult :loop 
+ fetch c1 into p_sid,p_sname,p_mark;
+      
+      if (eof = 1) then 
+         leave findresult;
+      end if;
+      
+      if p_mark>40 then
+                set result = "pass";
+        else
+				set result = "fail";
+        end if;
+ select p_sid,p_sname,p_mark,result;
+ 
+ end loop;
+ 
+ close c1;
+ end//
+ 
+ call findResultforall()//
+ 
+
+
+
+
+
+

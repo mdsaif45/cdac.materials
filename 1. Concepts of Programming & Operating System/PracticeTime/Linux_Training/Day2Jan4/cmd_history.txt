@@ -1,0 +1,66 @@
+373  mkdir linux_demo
+  374  cd linux_demo/
+  375  cat > file.txt
+  376  cat file.txt 
+  377  cat > data.txt
+  378  cat data.txt 
+  379  pwd
+  380  ls
+  381  mkdir data1
+  382  ls
+  383  cp /home/sid/linux_demo/file.txt /home/sid/linux_demo/data1/
+  384  cd data1/
+  385  ls
+  386  cd ..
+  387  mv /home/sid/linux_demo/data.txt /home/sid/linux_demo/data1/
+  388  ls
+  389  cd data1
+  390  ls
+  391  cd ..
+  392  ls
+  393  mkdir data2
+  394  ls
+  395  cp /home/sid/linux_demo/data1 /home/sid/linux_demo/data2/
+  396  cp -r /home/sid/linux_demo/data1 /home/sid/linux_demo/data2/
+  397  cd data2/
+  398  ls
+  399  cd ..
+  400  ls -a
+  401  cd ..
+  402  ls
+  403  l
+  404  ls
+  405  ls -a
+  406  cd linux_demo/
+  407  mkdir .datadir
+  408  ls 
+  409  ls -a
+  410  ls -t
+  411  ls -t -a
+  412  ls -t -a -r
+  413  ls -a -r -s
+  414  ls -l
+  415  ls -l -a
+  416  ls -l -t
+  417  ls -l -t -a
+  418  ls -l -t -a -h
+  419  cd ..
+  420  ls
+  421  ls -l
+  422  cd /media/sid/e01110ef-f04e-44e9-8e70-b42c8cea98f0/OS/
+  423  ls
+  424  ls -l
+  425  ls -l -h
+  426  cd
+  427  ls
+  428  cd linux_demo/
+  429  ls -l -t
+  430  ls -l -t -r
+  431  ls -ltr
+  432  ls -ltrh
+  433  ls -ltrha
+  434  man ls
+  435  ls -ltr
+  436  ls -a
+  437  history 
+

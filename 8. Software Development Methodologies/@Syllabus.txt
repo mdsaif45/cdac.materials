@@ -1,0 +1,8 @@
+Software Development Methodologies 
+84 Hours
+
+Git, Software Engineering, Software Development Life Cycle, Object Oriented Analysis and Design, Agile development
+model, Introduction to Atlassian Jira, Microservices, API gateway, DevOps, Containerization, Docker, YAML, Kubernetes,
+Software testing, Quality Assurance vs Quality Control vs Testing, STLC and V Model, Manual testing, Automation testing,
+Selenium , Jenkins, Introduction to Cloud, Cloud architecture, Service models: IaaS, PaaS, SaaS, Deployment models:
+Private, Public, Hybrid, Introduction to AWS

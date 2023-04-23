@@ -1,0 +1,6 @@
+Web Programming Technologies 
+108 Hours
+
+Architecture of Web, HTML, Cascading Style Sheets (CSS), JavaScript, jQuery, JSON & Ajax, Node.js, Node.js
+Asynchronous Programming, Node.js Modules, Introduction to Express, React, Introduction to React-Redux, Responsive
+Web Design & Web Security

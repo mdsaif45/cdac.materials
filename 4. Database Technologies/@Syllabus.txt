@@ -1,0 +1,6 @@
+Database Technologies 
+72 Hours
+
+DBMS, MySQL, Database Design, Entity-Relationship Diagram, Codd's 12 rules for RDBMS, SQL, Categories of SQL
+Commands, Normalization, MySQL Data Types, Database Constraints, SQL Functions & Operators, Joins, Subquery, Views,
+Indexes, ACID Properties, Stored Procedures, Cursors, Triggers, Introduction to NoSQL, MongoDB, Introduction to Big Data

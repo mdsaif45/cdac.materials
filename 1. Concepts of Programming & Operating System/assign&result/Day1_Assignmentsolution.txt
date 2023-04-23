@@ -1,0 +1,45 @@
+Date- 22/09/2021 
+Assignment no.1 - ( Operating Systems )
+
+Q 1. Difference between kernel and OS ?
+Ans-            Kernel                                      OS
+     (1) Kernel is the core part of the      (1) Operating system(OS)is the collection of     
+         operating system.                       of softwares that manages computer hardware
+                                                 resources.
+     (2) It acts as an interface between     (2) It acts as an interface between user and 
+         software and hardware of the            hardware of the computer.
+         computer system.
+     (3) It plays an important role in       (3) It responsible for protection and security
+         memory management, task manag-           of the computer system.
+         ement, process management and 
+         disk management.
+     (4) All operating systems need          (4) All system needs operating system to run.
+         kernel to run.
+     (5) It is the first program to          (5) It is the first program to load when computer
+         load when operating system              boots up.
+         loads.
+     (6) Type of kernel includes Mono-       (6) Type of operating system includes single and 
+         lithic and Micro kernel.                multiuser OS, multiprocessor OS, Realtime OS, 
+                                                 Distributed OS.
+
+Q 2. Write one liner on type of OS with example.
+Ans- Types of OS are following:
+     1. Batch OS- the First operating system of the second-generation computer is the batch
+        operating system. Batch operating system took the input on the punch card. 
+        Each punch card had the different form of data. System executed the jobs one by one in batch.
+        eg. Payroll system, Bank Invoice System
+     2. Distributed OS- A distributed operating system is one in which several computer systems 
+        connected through a single communication channel. 
+        eg. Solaris operating system for SUN multiprocessor workstations.
+     3. Multitasking OS- Multitasking operating system provides the interface for executing the 
+        multiple program tasks by single user at a same time on the one computer system.
+        eg. Windows 7, Windows 8, Windows 10,Linux etc.
+     4. A network operating system (NOS)- is a computer operating system (OS) that is designed
+        primarily to support workstations, personal computers and, in some instances, older terminals 
+        that are connected on a local area network.
+        eg. Microsoft Windows Server 2003, Microsoft Windows Server 2008, UNIX, Linux etc
+     5. Real Time OS- are used in environments where a large number of events, mostly external to the
+        computer system, must be accepted and processed in a short time or within certain deadlines.
+        eg. Airline traffic control systems, Command Control Systems, Airlines reservation system etc.
+     6. Mobile OS-  A mobile operating system is software that allows smartphones, tablet 
+        PCs (personal computers) and other devices to run applications and programs.

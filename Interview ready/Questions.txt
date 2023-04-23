@@ -1,0 +1,35 @@
+What is constructor and its types?
+Default and parametrize constructor.
+
+What is Overloading and overriding?
+
+
+What is rest controller and rest api?
+
+
+What is mapping and its types ?
+
+
+What is the flow of any request in Spring?
+
+
+In case you have to upload a file in a form what mapping is used and what type of attribute is used and how it is stored in database?
+
+
+How many tables are there in your project?
+
+
+Till how many level of normalisation have you acived?
+
+
+what is 3rd normal form?
+
+
+what is @configuration annotation?
+Do you have github profile and what is use of github?
+what is use of docker ?
+What is maven used for?
+Why is main method static in java? 
+what is interface?
+what is abstraction?
+How spring applocation runs?

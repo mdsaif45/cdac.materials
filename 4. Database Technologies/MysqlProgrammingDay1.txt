@@ -1,0 +1,347 @@
+			Mysql programming
+
+DBT
+
+1) DBMS
+
+2) SQL  
+     - SELECT
+         WHERE
+           ORDER BY
+            GROUP BY
+     - DELETE
+     - UPDATE
+     - INSERT
+     - CREATE
+         CONSTRAINS
+
+     - JOINS
+     - SUBQUERY
+     - AGGRIGATE FUNCTION
+
+PC
+  - JAVA
+      
+      data type
+      variable
+      conditional and control statement
+        if
+        if else
+        switch
+        while
+      operators
+      Arrays
+
+     int[] num = new int[4];
+
+      object- 
+
+Employee
+{
+int id
+String name
+float sal
+}
+
+file
+
+   - write object into the file
+   - read from the file
+   - do the logic
+  
+database
+   - create it once
+   - insert the data- 
+   - select
+
+client - java,php,python
+
+
+from data base - get the data to application
+
+and  do your logic
+
+  Employee e = new Employee();
+
+     - take input
+     - do logic
+     - display on the console
+
+     int studentid;
+     studentid = 1001;
+     int mark = 45
+
+      if(mark>36)
+       {
+         System.out.println("pass");
+      else
+         System.out.println("fail");
+
+   - JDBC
+
+     java database connetivity
+   - helps us to connect java with data base
+   - sql
+   - result set
+
+
+mysql
+
+ - you manage the data
+ - insert update,delete 
+
+
+oracle
+sybase
+
+
+------------------------------------------------------------------------   
+
+3) MYSQL PROGRAMMING
+       
+     SQL+ PROGRAMMING CONSTRUCT( DATA TYPE VARIABLE,IF,CASE,WHILE)
+- sql
+ - programming construct(if,esle,swith,while)
+
+- data type
+- vaiable
+- if ,else if,switch,while
+
+15,16,17
+--------------------------------------------------------------------
+
+4) mongodb- no sql
+
+{
+name : 'shanmuganathan'
+age  : 35
+
+}
+
+ 20, 21
+
+
+22 )
+
+-----------------------------------------------------------------------
+
+3) MYSQL PROGRAMMING
+
+   stored procedure
+
+   stored function
+
+   triggers
+
+
+.java
+
+class emp
+{
+
+   void dispEmp()
+   {
+
+
+   }
+
+   void findsal()
+   {
+
+   }
+
+}
+
+main()
+{
+
+  Emp e = new Emp()
+   e.dispemp();
+
+}
+
+
+void dispEmp()
+   {
+    declare varibale
+    assign data
+    if
+    display
+    sql
+   }
+
+procedure -get stored inside the data base
+
+client
+   java
+   php
+   mysql client
+
+
+
+Advantage
+
+  - it  increases the performance of the application
+client
+  
+
+- it reduces the traffic between application and server
+
+- reusalble - to any application
+
+- secure
+
+------------------------------------------------------------------------
+
+data type
+
+   int
+   varchar
+   decimal
+   
+
+variable
+   - 
+   local variable - variable used inside the procedure
+
+
+how to declare variable
+
+- in java -int sal = 0;
+
+-in procedure-
+
+ declare sal int default 0;
+
+  set sal = 4000;
+
+- to display in java
+   system.out.println(sal)
+
+- select sal;- in procedure
+
+
+------------------------------------------------------------------------
+How to create procedure
+
+1) hello world program in mysql programming
+
+
+delimiter //
+drop procedure sayHello//
+create procedure SayHello()
+begin
+ select "Hello world" ;
+end //
+
+
+drop procedure sayHello//
+
+create procedure sayHello(in pname varchar(20))
+begin
+
+ select  pname;
+
+end //
+
+call sayHello('shan')//
+
+
+mysql - server
+
+mysql client
+
+tool - clinet- mysql work bench
+
+
+2)
+
+using IN- parameters
+
+drop procedure sayHello//
+
+create procedure sayHello( in name varchar(20))
+
+begin
+
+ select concat("welcome" ,name);
+
+end //
+
+
+call sayHello(30);
+
+
+
+parameter
+  - three type of parameter
+
+   In
+   out
+   inout parameter
+
+
+2) adding two numbers
+
+
+create procedure AddNumber(in num1 int,in num2 int)
+begin
+declare tot int default 0;
+set tot = num1+num2;
+select "total=" + tot;
+end //
+
+call AddNumber(30,40);
+
+// to display the employees details
+
+
+3) create procedure getEmployee()
+   begin
+   select * from emp;
+   end//
+
+
+4) to display perticuler  employees details
+
+   drop procedure getEmployee//
+   create procedure getEmployee(in eno int)
+   begin
+   select * from emp where empno = eno;
+   end//
+
+
+   call getEmployee(7698)
+
+tomorrow schedule
+   
+2.30
+
+5.30
+
+procedure
+   - in
+     out
+     inout
+cursor
+
+function
+ 
+
+// delimeter can be changed also
+
+delimiter &&
+
+drop procedure getEmployee//
+   create procedure getEmployee(in eno int)
+   begin
+   select * from emp where empno = eno;
+   end &&
+
+call getEmployee()&&
+
+delimiter ;
+
+-------------------------------------------------------------------------
+
+

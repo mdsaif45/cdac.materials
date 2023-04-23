@@ -1,0 +1,8 @@
+Microsoft.Net Technologies 
+84 Hours
+
+.Net Framework, Visual Studio, C# Basics, Interfaces, Indexers, Generic classes, Collections, Delegates, Lambdas, Error
+Handling (Exceptions Handling), LINQ to objects, PLINQ, Files I/O and Streams, Threading
+Asp.Net MVC, MVC State Management, MVC Module, Data Management with ADO.NET, Understanding Routing & Request
+Life Cycle, Layouts, Bundle, Minification, MVC Security, Entity Framework, Understanding ASP.Net MVC Core, Windows
+Communication Foundation, Web APIs

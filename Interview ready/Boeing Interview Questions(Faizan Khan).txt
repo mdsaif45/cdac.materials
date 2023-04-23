@@ -1,0 +1,5 @@
+Question1: Tell me about yourself.
+Question2: What technologies you have learnt till now, how would you prove that you know these technologies very well?
+STAR BASED QUESTIONS(S = Situation, T = Task, A = Action, R = Result)
+Question3: If any customer wants any product from you and they have been given their requirements but you don't know to your customer, now you have to deliver with extends of features to this product so that the customer always be happy with your product. How would you do it?
+2-3 questions more based on STAR BASED but i don't remember at this time.

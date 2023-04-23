@@ -1,0 +1,157 @@
+ 600  cd linux_demo/
+  601  ls
+  602  mv memory.txt memory_new.txt
+  603  ls
+  604  chmod 400 data1
+  605  ls -l
+  606  cd data1
+  607  ls data1/
+  608  cp data1/data.txt .
+  609  ls
+  610  chmod 100 data2
+  611  ls -l
+  612  cd data2
+  613  ls
+  614  umask
+  615  touch a.txt
+  616  cd ..
+  617  ls
+  618  touch a.txt
+  619  ls -l
+  620  umask 022
+  621  umask
+  622  touch b.txt
+  623  ls -l
+  624  dmesh
+  625  dmesg
+  626  dmesg | wc
+  627  dmesg | wc -l
+  628  dmesg 
+  629  dmesg | less
+  630  free
+  631  date 
+  632  ls
+  633  nano names.txt
+  634  cat names.txt 
+  635  cat names.txt | grep '^A'
+  636  cat names.txt | grep '^D'
+  637  cat names.txt | grep '^S'
+  638  cat names.txt | grep '^Ab'
+  639  cat names.txt | grep '^Aa'
+  640  cat names.txt | grep '^Abh'
+  641  cat names.txt | grep '^A'
+  642  cat names.txt | grep '^A.i'
+  643  cat names.txt | grep '^S'
+  644  cat names.txt | grep '^Si'
+  645  cat names.txt | grep '^Sid'
+  646  cat names.txt | grep '^Sid*'
+  647  cat names.txt | grep '^Sid+'
+  648  cat names.txt | grep '^Sid\+'
+  649  cat names.txt | grep -P '^Sid+'
+  650  cat names.txt | grep -P '^Si.+'
+  651  cat names.txt | grep -P '^Si.*'
+  652  cat names.txt | grep -P '^Sid{2}'
+  653  cat names.txt | grep -P '^Sid{2,4}'
+  654  cat names.txt | grep -P '^S[0-9]'
+  655  cat names.txt | grep -P '^Si[0-9]'
+  656  cat names.txt | grep -P '^Si[a-j]'
+  657  cat names.txt | grep -P '^Si[a-j0-9]'
+  658  cat names.txt | grep -P '^Si[a-j0-9A-Z]'
+  659  cat names.txt | grep -P '^Si[a-j0-9]'
+  660  cat names.txt | grep -P '^Si[0-9]'
+  661  cat names.txt | grep -P '^Si[0-9]*'
+  662  cat names.txt | grep -P '^Si[0-9]+'
+  663  cat names.txt | grep -P '^A'
+  664  cat names.txt | grep -P '^A[m|n]'
+  665  cat names.txt | grep -P '^Si[0-9]+'
+  666  cat names.txt | grep -P '^Si[a-z]+'
+  667  cat names.txt | grep -P '^Sid'
+  668  cat names.txt | grep -P '^Sid{2}'
+  669  cat names.txt | grep -P '^Sid{2}.*t$'
+  670  cat names.txt | grep -P '^Si[a-j0-9A-Z]'
+  671  cat names.txt | grep -P '^Si[0-9]+'
+  672  cat names.txt | grep  '^Si[0-9]+'
+  673  cat names.txt | grep -P  '^Si[0-9]+'
+  674  ip -a
+  675  ip a
+  676  ip a | grep -P '[0-9]{3}\.[0-9]{3}\.[0-9]{1}\.[0-9]{1}'
+  677  history 
+  678  ip a
+  679  cat names.txt 
+  680  cat names.txt | tr -s "d"
+  681  cat names.txt | tr -d "d"
+  682  cat names.txt | tr -d "A"
+  683  ls
+  684  ls -
+  685  ls -l
+  686  ls -l | cut -d" "
+  687  ls -l | cut -d" " -f1
+  688  ls -l | cut -d" " -f3
+  689  ls -l | cut -d" " -f2
+  690  ls -l | cut -d" " -f4
+  691  ls -l
+  692  ls
+  693  cat cars.csv
+  694  cat cars.csv | cut -d"," -f1
+  695  cat cars.csv | cut -d"," -f2
+  696  cat cars.csv | cut -d"," -f3
+  697  cat cars.csv | cut -d"," -f4
+  698  cat cars.csv | cut -d"," -f5
+  699  cat cars.csv | cut -d"," -f6
+  700  cat cars.csv | cut -d"," -f7
+  701  cat cars.csv | cut -d"," -f8
+  702  cat cars.csv | cut -d"," -f9
+  703  cat cars.csv | cut -d"," -f10
+  704  cat cars.csv | cut -d"," -f11
+  705  cat cars.csv | cut -d"," -f12
+  706  cat cars.csv | cut -d"," -f13
+  707  cat cars.csv | cut -d"," -f1,10
+  708  cat cars.csv | cut -d"," -f1,4,10
+  709  cat cars.csv | cut -d"," -f1,4,10 | grep
+  710  cat cars.csv | cut -d"," -f1,4,10 
+  711  cat cars.csv | cut -d"," -f1,4,10 | tr -d '"'
+  712  cat cars.csv | cut -d"," -f1,4,10 | tr -d '"' | grep -P 'Toyota'
+  713  ls -l
+  714  ls -l | cut -d" " -f1
+  715  ls -l | cut -d" " -f3
+  716  ls -l | cut -d" " -f5
+  717  ls -l | cut -d" " -f4
+  718  ls -l | cut -d" " -f5
+  719  ls -l | cut -d" " -f6
+  720  ls -l | cut -d" " -f7
+  721  ls -l | cut -d" " -f8
+  722  ls -l | cut -d" " -f9
+  723  ls -l | cut -d" " -f10
+  724  ls -l | cut -d" " -f111
+  725  ls -l | cut -d" " -f11
+  726  ls -l
+  727  ls -l | tr -s " "
+  728  ls -l | tr -s " " | cut -d" " -f1
+  729  ls -l | tr -s " " | cut -d" " -f2
+  730  ls -l | tr -s " " | cut -d" " -f4
+  731  ls -l | tr -s " " | cut -d" " -f5
+  732  ls -l | tr -s " " | cut -d" " -f6
+  733  ls -l | tr -s " " | cut -d" " -f7
+  734  ls -l | tr -s " " | cut -d" " -f8
+  735  ls -l | tr -s " " | cut -d" " -f9
+  736  ls -l | tr -s " " | cut -d" " -f1,9
+  737  cat cars_new.csv 
+  738  cat cars_new.csv | wc -l
+  739  cat cars_new.csv | cut -d"," -f1
+  740  cat cars_new.csv | cut -d"," -f
+  741  cat cars_new.csv | cut -d"," -f2
+  742  cat cars_new.csv | cut -d"," -f3
+  743  cat cars_new.csv | grep -P 'Audi'
+  744  cat cars_new.csv | cut -d"," -f4,5 | grep -P "Audi"
+  745  cat cars_new.csv | cut -d"," -f4,5 | grep -Pn "Audi"
+  746  cat cars_new.csv | cut -d"," -f4,5 | grep -Pv "Audi"
+  747  cat cars_new.csv | cut -d"," -f4,5 | grep -Pi "Audi"
+  748  cat cars_new.csv | cut -d"," -f4,5 | grep -Pn "Audi"
+  749  cat cars_new.csv | cut -d"," -f4,5 | grep -Pc "Audi"
+  750  cat cars_new.csv | cut -d"," -f4,5 | grep -Pw "Audi"
+  751  man grep
+  752  cat cars_new.csv | grep -Pw "Audi"
+  753  cat cars_new.csv | grep -Pw "Audi" | cut -d"," 1,2
+  754  cat cars_new.csv | grep -Pw "Audi" | cut -d"," -f1,2
+  755  history 
+

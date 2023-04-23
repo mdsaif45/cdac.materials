@@ -1,0 +1,118 @@
+Linux Philosophy:
+Evertything is file
+
+
+Permissions:
+->Directories are also files
+->To open directory we need executable permission
+->To read the content inside directory we need read permission
+
+Default permissions:
+umask -> masking the permission.Removing the permission
+->It is used to set the default for files or directories
+umask 022
+For Files:
+Default full permission: 666  
+6 0 -> 6
+6 2 -> 4
+6 2 -> 4
+Default permission after umask is 644
+
+For Directories:
+Default full permission: 777
+7 0 -> 7
+7 2 -> 5
+7 2 -> 5
+
+Example:
+Umask is 101
+For file
+666 -> 666
+6 1 -> 6
+6 0 -> 6
+6 1 -> 6
+
+r->4
+w->2
+x->1
+7 = 4 + 2 + 1 => r w x
+5 -> 4 + 1 -> r + x
+To set mask run:
+umask permissions
+->This will change permission on current terminal only
+___________________________________________________________
+Pipes:
+->pass the output of a command to another command
+___________________________________________________________
+Regular expressions:
+^ -> line starting with
+$ -> line ending with
+. -> any character
+* -> zero or more occurance
++ -> one or more occurance
+| -> or
+{} ->exact number of occurance
+() -> grouping
+[] ->range
+
+Use regular expression with grep command
+-i -> ignore cases
+-v -> invert 
+-n -> line number
+-c -> number of lines
+_______________________________________________________________
+Truncate:
+Command:tr 
+tr -s "d" -> squeze the number of occurance the given character
+
+tr -d "d" -> delete the character
+________________________________________________________
+cut command:
+->This command creates column based on seperator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

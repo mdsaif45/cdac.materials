@@ -1,0 +1,40 @@
+1. Tell me something about yourself
+2. Why do you want to work in IT industry?
+3. Are you comfortable in java and sql?
+4. Asked basic C questions like what is array, pointer, structure
+5. Difference between C++ and Java
+6. What is malloc and calloc? 
+7. What are macros?
+8. What is local variable, gblobal variable?
+9. What is infinite loop? what is the syntax of infinite loop?
+10. Write a program to print infinite loop
+11. What is java?
+12. Difference between call by value and call by reference
+13. Given a=10, b=20, write a program to swap two numbers without using 3rd variable.
+14. Write a program to print fibonacci series.
+15. Gave me a star pattern and write a program to print that pattern
+    
+        *
+       ***
+      *****
+     *******
+    *********
+   ***********
+
+
+16. Gave me a number pyramid and asked me to write a program to print that
+
+        1
+      2 3 2
+    3 4 5 4 3
+  4 5 6 7 6 5 4
+5 6 7 8 9 8 7 6 5
+
+17. Difference between DML, DCL & DDL
+18. What is joins and sql?..what are types of joins?
+19. What is outer join? Give one example of outer join
+20. Gave me an example of Employee table containing EmpId, EmpName, EmpSalary, EmpDepartment etc. and asked me to write following queries:-
+  a. write a query to print list of workers working in HR department
+  b. write a query to print list of employees whose salary is in between 50000 to 100000
+  c. write a query to print first name of employee in Upper case.
+  d. suppose there is another table employee2, write a query to copy all the data of employee table to employee2 table

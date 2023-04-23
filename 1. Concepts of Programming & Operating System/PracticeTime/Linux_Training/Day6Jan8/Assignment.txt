@@ -1,0 +1,13 @@
+1.Write a script to find the greatest number in three number.
+2.Write a script to find the given number is even or odd
+3.Write a script to find the given file is readable ,writable and executable or not
+4.Write a script for menu driven calculator
+5.Write a script to print all even number in given range(take range from user)
+6.Write a script to print all odd number in given range(take range from user)
+_____________________________________________________________________________________
+1.Create data directory
+2.Write a script to create files with given range in data directory (Take range from user)(Filename should be 1.txt,2.txt,3.txt and so on)
+3.Write a script to bulk rename to all files in data directory. New should be like a1.txt,b2.txt,etc
+4.Write a script to bulk rename to all files in data directory. New should be like 1a.txt,2b.txt,etc
+
+

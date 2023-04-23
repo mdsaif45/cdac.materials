@@ -1,0 +1,19 @@
+
+
+stored procedure
+
+
+1)Create a procedure which takes employee number as parameter and delete the employee record. display the empname whose record has been deleted.
+
+2)Create a procedure which takes department name as paramater and displays all the employee records from the perticuler department and  no of employee in that department. 
+
+3)Write procedure to display the  department with more than five employees.
+
+4)Create a procedure for adding a row in emp table. Display number of rows added. 
+
+5)Write a procedure to display employee id, name, hire date, and the incentive amount they achieved according to their working experiences, 
+
+
+
+
+

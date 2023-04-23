@@ -1,0 +1,35 @@
+1.What is  String Builder?
+2.what is String Buffer?
+3.what is String Reader?
+4.What is Garbage Collection?
+5.What is serialization?
+6.What is deserialization?
+7.What is Synchronization?
+8.what is Transient Variable?
+9.Demon Thread?
+10.SpringBoot Annotations
+11.Tell me types of Css?
+12.what is CSS?
+13. Explain table tag?
+14.Join command in database?
+15.subquery?
+16.which command is faster join or subquery?
+17.what is rownum?
+18.what is garbage collection?
+19.What is thread?
+20.How we can achieve multithreading?
+21.what is  angular Js?
+22.can simple html file be converted into jsp page?
+23.What is jsp?
+24.What is servlet?
+25.Can table be created without primary key?
+26. Explain alter command?
+27.what is bootstrap?
+28.what is Trigger?
+29.what is procedure?
+30.What is function?
+31.Difference between function and procedure?
+32.What is cursor? Tell its format.
+
+
+

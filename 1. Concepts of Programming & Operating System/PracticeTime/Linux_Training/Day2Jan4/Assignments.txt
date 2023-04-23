@@ -1,0 +1,17 @@
+1.Create data1->data2->data3->data4 directory
+2.Go to data4
+3.Create data5 dir inside data3
+4.Create a.txt,b.txt file inside data1
+5.Create c.txt d.txt file inside data5
+6.Go to data5
+7.Copy d.txt to data4
+8.Move c.txt to data4
+9.Copy a.txt to data3
+10.Move b.txt to data4
+
+11.Go to data4
+12.Move a.txt to data2
+13.Go to data1
+14.Copy data5 to data2
+15.Move data4 to data5
+

@@ -1,0 +1,32 @@
+1.Store memory stats in file memory.txt(Use free command)
+2.Append disk stats to memory.txt(use df command)
+3.Give executable permission to user only to memory.txt
+4.Only user should able to read and write the bio.txt.Group and others can't do anything
+5.Create a file data.txt.And write your name inside it using cat command.Only user can edit the file. Group and others can read the file only
+
+
+Note:Complete all questions with numerical permissions:
+1.Give executable permission to user only to memory.txt
+2.Only user should able to read and write the bio.txt.Group and others can't do anything
+3.Create a file data.txt.And write your name inside it using cat command
+4.Only user and edit the file. Group and others can read the file only
+5.Edit the data.txt and write your age inside it use cat command.
+
+
+6.Create Data1,Data2 and Data3 directory
+7.Give all permissions to all users on all three dir.
+8.Create a.txt,b,txt and c.txt in Data1,Data2 and Data3
+9.Give read and write and executables permisison to user only on a.txt
+10.Give read,write and executable permission to group only on b.txt
+11.Give read,write and executable permission to others only on c.txt.
+12.Move c.txt to info.txt
+13.Write your name into info.txt
+14.Give read only permission to only user on Data1
+15.Change dir to Data1
+16.List content of Data1 dir
+17.Copy a.txt from Data1 to Data2
+18.Give executable only permisson to only user on Data2 
+19.Change dir to Data2
+20.List content of Data2 dir
+21.Copy b.txt from Data to Data3
+

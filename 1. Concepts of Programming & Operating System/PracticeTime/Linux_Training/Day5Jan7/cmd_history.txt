@@ -1,0 +1,87 @@
+  785  cd linux_demo/
+  786  dmesg > file.txt
+  787  cat file.txt | grep '0x.*0$'
+  788  cat file.txt | grep '0x.*0'
+  789  useradd test
+  790  sudo useradd test
+  791  cat /etc/passwd
+  792  su - test
+  793  passwd test
+  794  sudo passwd test
+  795  su - test
+  796  useradd -u 2000 -s /bin/bash test1
+  797  sudo useradd -u 2000 -s /bin/bash test1
+  798  sudo passwd test1
+  799  su - test1
+  800  man useradd
+  801  sudo useradd -d /tmp/data test2
+  802  sudo passwd test2
+  803  su - test2
+  804  sudo userdel test
+  805  sudo userdel test1
+  806  sudo userdel test2
+  807  cat /etc/passwd
+  808  sudo useradd -u 2000 test
+  809  sudo passwd test
+  810  cat /etc/passwd
+  811  sudo usermod -u 3000 test
+  812  cat /etc/passwd
+  813  cat /etc/passw
+  814  cat /etc/passwd
+  815  sudo usermod -s /bin/bash test
+  816  cat /etc/passwd
+  817  sudo usermod -c "This is new user" test
+  818  cat /etc/passwd
+  819  sudo usermod -e 2022-30-01 test
+  820  cat /etc/passwd
+  821  cat /etc/group
+  822  sudo usermod -a -G lp,avahi test
+  823  su - test
+  824  sudo usermod -a -G sudo test
+  825  su - test
+  826  sudo adduser test3
+  827  cat /etc/passwd
+  828  su - test3
+  829  ls -l
+  830  cd linux_demo/
+  831  ls -l
+  832  chown test3 file.txt
+  833  sudo chown test3 file.txt
+  834  ls -l
+  835  sudo chgrp test file.txt
+  836  ls -l
+  837  history 
+ 844  mkdir scripts
+  845  cd scripts/
+  846  nano print_on_screen.sh
+  847  chmod u+x print_on_screen.sh 
+  848  ./print_on_screen.sh 
+  849  nano print_on_screen.sh
+  850  nano variable.sh
+  851  chmod u+x variable.sh 
+  852  ./variable.sh 
+  853  nano variable.sh
+  854  ./variable.sh 
+  855  nano variable.sh
+  856  ./variable.sh 
+  857  nano variable.sh
+  858  ./variable.sh 
+  859  nano variable.sh
+  860  ./variable.sh 
+  861  nano variable.sh
+  862  nano user_input.sh
+  863  chmod u+x user_input.sh 
+  864  ./user_input.sh 
+  865  nano user_input.sh
+  866  nano airthmatic.sh
+  867  chmod u+x airthmatic.sh 
+  868  ./airthmatic.sh 
+  869  nano airthmatic.sh
+  870  ./airthmatic.sh 
+  871  nano airthmatic.sh
+  872  ./airthmatic.sh 
+  873  nano airthmatic.sh
+  874  ./airthmatic.sh 
+  875  nano airthmatic.sh
+
+

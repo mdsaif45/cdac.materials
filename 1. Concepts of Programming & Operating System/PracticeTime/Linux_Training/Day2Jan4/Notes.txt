@@ -1,0 +1,64 @@
+Notes:
+hidden filename starts with .
+
+_______________________________________________
+Write content into file?
+cd > filename
+Type your content
+ctrl+d
+
+->ctrl+d means End of File character
+->this command overwrites the files
+
+
+Read the file:
+cat filename
+________________________________________________
+Copy:
+Copy the files:
+cp Source_path destination_path
+
+Copy a directory:
+cp -r source_path destination_path
+
+Move:Same command works for file and directory
+mv source_path destination_path
+________________________________________________________
+Options:
+->options start with - or --
+->options are feature or configuration of commands
+->You must options after a space
+-> '-' means option is of single letter
+-> '--' means option is word
+ls options
+-a -> all files
+-l -> long listing
+-t -> sort by time
+-r -> sort in reverse order
+-h -> human readable format(shows the size of file in human readable format)
+-s -> sort by size
+
+drwxrwxr-x 1 sid sid 32 Jan  4 10:17 data1
+
+d-> directory
+- -> file
+l -> link
+c -> character device file
+b -> block device file
+
+________________________________________________________
+Linux man:
+man command
+Note: press q to exit manual
+
+
+
+
+
+
+
+
+
+
+
+

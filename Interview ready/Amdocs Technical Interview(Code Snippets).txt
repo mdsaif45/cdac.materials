@@ -1,0 +1,146 @@
+
+**Amdocs Interview**
+
+***Introduce Yourself...
+I blacked out in introduction.
+
+Interviewer:- Dont panic, be relax, theres no need to panic.
+
+***Find output? Explain how you got the output?
+
+Q 1)
+class main
+{
+public static void main(String args[])
+{  
+	System.out.print(10 + 20 + "Hello World");
+}
+}
+
+Ans=> 30Hello World
+======================================================================
+
+Q 2)
+class main
+{
+public static void main(String args[])
+{  
+	System.out.print( "Hello World" + 10 + 20 );
+}
+}
+
+Ans=> Hello World1020
+
+=======================================================================
+
+Q 3)
+class main
+{
+public static void main(String args[])
+{  
+	for(int i=0; 0; i++){
+	System.out.print( "Hello World" );
+	}
+}
+}
+
+Ans=> Compile time error:- Can not convert int 0 to boolean; 
+
+
+=======================================================================
+
+Q 4)
+class Student3
+{
+int id;
+String name;
+   
+void display(){
+	System.out.println(id+" "+name);
+}    
+
+public static void main(String args[])
+
+{  
+Student3 s1=new Student3();  
+Student3 s2=new Student3();
+s1.display();  
+s2.display();  
+}
+}
+
+
+Ans=>	0 null
+	0 null
+======================================================================================================
+
+Q 5)
+class Student3
+{
+int id;
+String name; 
+public Student3(int id,String name){
+
+	this.id=id;
+	this.name=name;
+}  
+   
+void display(){System.out.println(id+" "+name);}    
+public static void main(String args[])
+{  
+Student3 s1=new Student3();  
+Student3 s2=new Student3(1,"Raj");
+s1.display();  s2.display();  
+}
+}
+
+Ans=> Compile time error, Constructor Student3() is not defined.
+
+=====================================================================================================
+
+Q 6)
+public class Test   
+{      
+	Test(int a, int b){          
+	System.out.println("a = "+a+" b = "+b);      
+    }      
+	Test(int a, float b){
+        System.out.println("a = "+a+" b = "+b);      
+    }      
+
+	public static void main (String args[]){          
+	byte a = 10;           
+	byte b = 15;          
+	Test test = new Test(a,b);      
+}  
+}
+
+Ans=> a = 10 b = 15
+========================================================================================================
+
+Q 7) Difference between break and Continue?
+
+========================================================================================================
+
+Q 8) One puzzle?
+
+========================================================================================================
+
+Q 9) Find dublicates from Employee tables?
+Q 10) Delete dublicates entries from same table?
+Q 11) Print sum of salaries?
+Q 12) Can aggregriate funtion like sum consider null value?
+
+======================================================================================================== 
+
+Q 13) Are you ready to work in Shifts? Weekends? Different technologies ?
+
+========================================================================================================
+
+Hr round:-
+
+Introduce yourself?
+Is there any gap in your education?
+Why Amdocs?
+
+========================================================================================================

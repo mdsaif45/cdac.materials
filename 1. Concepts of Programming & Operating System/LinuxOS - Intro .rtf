@@ -1,0 +1,160 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Courier New;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\qj\f0\fs22\lang1033 Objective\par
+To introduce Operating System concepts with Linux environment, and to learn Shell \par
+Programming\par
+\par
+Day 1 Theory\par
+\par
+\b\fs28 What is OS?\b0\fs22\par
+-----------\par
+An Operating System (OS) is an interface between a computer user and computer hardware. An operating system is a software which performs all the basic tasks like file management, memory management, process management, handling input and output, and controlling peripheral devices such as disk drives and printers.\par
+\par
+Some popular Operating Systems include Linux Operating System, Windows Operating System, VMS, OS/400, AIX, z/OS, etc.\par
+\par
+\b\fs28 Some of important functions of an operating System\par
+\b0\fs22 --------------------------------------------------\par
+\b 1)Processor Management: \b0 An operating system manages the processor\'e2\'80\'99s working by allocating various jobs to it and ensuring that each process receives enough time from the processor to function properly.\par
+\par
+\b 2)Memory Management: \b0 An operating system manages the allocation and deallocation of the memory to various processes and ensures that the other process does not consume the memory allocated to one process.\par
+\par
+\b 3)Device Management(I/O management): \b0 There are various input and output devices. An operating system controls the working of these input-output devices. It receives the requests from these devices, performs a specific task, and communicates back to the requesting process.\par
+\par
+\b 4)File Management: \b0 An operating system keeps track of information regarding the creation, deletion, transfer, copy, and storage of files in an organized way. It also maintains the integrity of the data stored in these files, including the file directory structure, by protecting against unauthorized access.\par
+\par
+\b 4)Security: \b0 The operating system provides various techniques which assure the integrity and confidentiality of user data. Following security measures are used to protect user data:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\qj\tab Protection against unauthorized access through login.\par
+{\pntext\f1\'B7\tab}\tab Protection against intrusion by keeping Firefall \tab active.\par
+{\pntext\f1\'B7\tab}\tab Protecting the system memory against malicious access.\par
+{\pntext\f1\'B7\tab}\tab Displaying messages related to system vulnerabilities.\par
+
+\pard\qj\par
+\b 5)Error Detection: \b0 From time to time, the operating system checks the system for any external threat or malicious software activity. It also checks the hardware for any type of damage. This process displays several alerts to the user so that the appropriate action can be taken against any damage caused to the system. \par
+\par
+\b 6)Job Scheduling: \b0 In a multitasking operating system where multiple programs run simultaneously, the operating system determines which applications should run in which order and how time should be allocated to each application. \par
+\par
+\b\fs28 Interaction with OS\par
+\b0\fs22 -------------------\par
+The application programs make use of the operating system by making requests for services through a defined application program interface (API). In addition, users can interact directly with the operating system through a user interface, such as a command-line interface (CLI) or a graphical UI (GUI).\par
+\par
+\b\fs28 Why is OS hardware dependent?\fs22\par
+\b0 -----------------------------\par
+We should understand that the following things are hardware dependent:\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\qj System startup/reset\par
+{\pntext\f1\'B7\tab}Interrupt handling\par
+{\pntext\f1\'B7\tab}Virtual memory management & protection\par
+{\pntext\f1\'B7\tab}Device I/O\par
+{\pntext\f1\'B7\tab}System-level protections for code access and security\par
+{\pntext\f1\'B7\tab}Some mutual exclusion primitives\par
+
+\pard\qj\par
+Now if we see closely, all above are functions of an OS. Hence OS is hardware deendent.\par
+\par
+Platform dependent typically refers to applications that run under only one operating system in one series of computers (one operating environment); for example, Windows running on x86 hardware or Solaris running on SPARC hardware. Sometimes, it means the same as "hardware dependent" or "machine dependent" and refers to applications that runs on only one hardware series with the operating system not being relevant.\par
+\par
+In contrast, "platform independent" means that the application can run in different operating environments. Applications written in Java are a prime example\par
+\par
+\b\fs28 What did we learn so far about an OS (yeah in simple terms)\par
+\b0\fs22 -----------------------------------------------------------\par
+1. A program which controls the execution of all other programs\par
+(applications).\par
+\par
+2. Acts as an intermediary between the user(s) and the computer.\par
+\par
+3. Objectives:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\qj convenience,\par
+{\pntext\f1\'B7\tab}efficiency,\par
+{\pntext\f1\'B7\tab}extensibility\par
+
+\pard\qj\par
+4. The Operating System (OS): \par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\qj controls all execution. \par
+{\pntext\f1\'B7\tab}multiplexes resources between applications. \par
+{\pntext\f1\'B7\tab}abstracts away from complexity.\par
+
+\pard\qj\par
+\b\fs28 Components of an OS\par
+\b0\fs22 -------------------\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\qj Shell\par
+{\pntext\f1\'B7\tab}Kernel\par
+
+\pard\qj\par
+\ul Shell handles user interactions.\ulnone  It is the outermost layer of the operating system and manages the interaction between user and operating system by:\par
+\par
+- Prompting the user to give input\par
+- Interpreting the input for the operating system\par
+- Handling the output from the operating system\par
+\par
+\ul Kernel is the core component of an operating system \ulnone which acts as an interface between applications, and the data is processed at the hardware level\par
+\par
+\b The kernel is responsible for performing the following tasks:\par
+\b0\par
+- Input-Output management \par
+- Memory Management \par
+- Process Management for application execution. \par
+- Device Management \par
+- System calls control\par
+\par
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\par
+Ques 1 - Difference between kernel and OS (10 min)\par
+Good reference: https://www.geeksforgeeks.org/difference-between-operating-system-and-kernel/\par
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\par
+\par
+\b\fs28 Types of Operating Systems\par
+\b0\fs22 --------------------------\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\qj Batch OS\par
+{\pntext\f1\'B7\tab}Distributed OS\par
+{\pntext\f1\'B7\tab}Multitasking OS\par
+{\pntext\f1\'B7\tab}Network OS\par
+{\pntext\f1\'B7\tab}Real-OS\par
+{\pntext\f1\'B7\tab}Mobile OS\par
+
+\pard\qj\par
+Ques2 - Write one-liner on each OS with examples (10 min)\par
+\par
+Modes of operation in OS\par
+------------------------\par
+User mode --> mode bit = 1\par
+kernel mode --> mode bit = 0\par
+\par
+\b Important: The mode bit is set to 0 in the kernel mode. It is changed from 0 to 1 when switching from kernel mode to user mode.\par
+\fs28\par
+Kernel Mode\par
+\b0\fs22\par
+In Kernel mode, the executing code has complete and unrestricted access to the underlying hardware. It can execute any CPU instruction and reference any memory address. Kernel mode is generally reserved for the lowest-level, most trusted functions of the operating system. Crashes in kernel mode are catastrophic; they will halt the entire PC.\par
+\par
+\b\fs28 User Mode\b0\fs22\par
+\par
+In User mode, the executing code has no ability to directly access hardware or reference memory. Code running in user mode must delegate to system APIs to access hardware or memory. Due to the protection afforded by this sort of isolation, crashes in user mode are always recoverable. Most of the code running on your computer will execute in user mode.\par
+\par
+Example\par
+--\par
+Regular user space programs evoke system calls all the time to get work done, for example:\par
+ls\par
+ps\par
+top\par
+bash\par
+\par
+Digging one layer deeper, the following are some example system calls which are invoked by the above listed programs. Typically these functions are called through libraries such as glibc, or through an interpreter such as Ruby, Python, or the Java Virtual Machine.\par
+open (files)\par
+getpid (processes)\par
+socket (network)\par
+\par
+A typical program gets access to resources in the kernel through layers of abstraction as follows:\par
+\par
+- User Programs\par
+- Library/Interpreter\par
+- System Calls\par
+- Kernel Space\par
+--\par
+\par
+\par
+}
+ 

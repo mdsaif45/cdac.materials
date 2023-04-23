@@ -1,0 +1,158 @@
+mysql programming
+
+  stored procedure
+  stored function
+  trigger
+inout
+
+select into
+
+cursor
+  - exception handling
+
+function
+
+exception handling
+
+trigger
+
+stored procedure
+
+what is stored procedure
+advantage
+how to create stored procedure
+procedure - without parameter
+procedure - with parameter
+            in,out,inout
+select into
+
+c - programming language
+scanf
+
+java- programming
+
+scanner 
+
+mysql programming
+   - data from data base
+   - intract with data base
+
+sql+programming construct
+   
+select into 
+cursor
+function
+
+you can ask the procedure to display the result
+
+you can ask the procedure to send it to the caller
+
+
+get input/read data- from data base
+- do logic
+- diplay on the console
+- send it to the caller
+
+-------------------------------------------------------------------------
+1) parameter in,out,inout
+
+2) keep lab- 2 hrs
+
+3) select * from emp
+     where empno = 7639
+
+select into
+   select * from emp
+      where deptno = 30 limit 1;
+
+parameter
+
+
+
+
+type of variable in mysql
+1) local variable
+2) session
+
+student table
+
+sid      name   mark   result
+1001     shan   20    
+1002     nathan 40   
+1003     raj    60
+
+
+if(mark>35) 
+ result pass
+else
+  result fail
+
+select into will help us to hold the table data to the local variable
+for further process;
+
+
+- get the data from the database
+
+  - display - select p_name
+
+  - send it to clinet  - out parameter along select into
+
+  - process the data - if,if else,case
+
+
+
+break 4.40 to 5.00
+
+
+cursor-
+    
+  - to handle the result set inside the procedure
+  - to itererate the rows returned by the query
+
+
+   select * from emp where sal>4000
+
+
+exception
+
+no data found error
+
+set eof= 0;
+
+declare continue hadler for not found 
+                           set eof= 1;
+findrecord :loop
+  fetch c1
+   if eof = 1
+
+     leave findrecord
+
+end loop
+
+
+
+
+create function findmax(in)
+return 
+being
+
+select max(sal) into p_sal from emp
+
+return p_sal
+end
+
+
+9 10 to 12
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+-> '.' refers to current directory
+-> '..' refers to previous directory
+->All directories have . and ..
+
+Relative Path:
+->Path from your current location
+____________________________________________________
+mkdir
+-p -> creates all directories given path
+____________________________________________________
+Misc. Commands:
+cal -> calender
+date -> for date
+who -> all logged in user
+whoami -> current logged in user
+uname -> system details
+    -a -> all details
+dmesg -> it provides the kernel log
+wc -> Count by lines,words,letters 
+more -> Read the file by scrolling it.But scroller moves only forward direction.Press enter key to move forward.Press q to exit
+less ->Read the file by scrolling it.Scroller can move in both direction.Press arrow to move forward and backward.Press q to exit
+
+head -> print the top of the file
+head -n 100 log.txt
+
+tail -> print the botton of the file
+tail -n 30 log.txt
+__________________________________________________
+Redirection Operator:
+->Pass the output of command to file
+>,>>,<
+
+-> '>' overwrites the content of file
+-> redirection creates the file if its not there
+-> '>>' append the content to the file
+____________________________________________________
+Permissions:
+Command: chmod
+
+Three types of permissions:
+read -> r
+write -> w
+executable -> x
+
+Three types of user:
+user/owner -> u
+group -> g
+other -> o
+
+->order is fixed
+rwxrwxr-x
+ u  g  o
+u -> rwx 
+g -> rwx
+o -> r-x
+
+chmod o+w data1
+chmod g-w data1
+chmod g-x data1
+
+Numerical Permissions:
+r -> 4
+w -> 2
+x -> 1
+
+Order: user,group,other
+u -> rw- -> 4 + 2 + 0 = 6
+g -> rw- -> 4 + 2 + 0 = 6
+o -> r-- -> 4 + 0 + 0 = 4
+
+rw-rw-r-- => 664
+
+u -> rwx -> 4 + 2 + 1 = 7
+g -> rw -> 4 + 2 + 0 = 6
+o -> rw -> 4 + 2 + 0 = 6
+766
+
+chmod 766 file.txt
+u -> rwx -> 7
+g -> rw- -> 6
+o -> --- -> 0
+
+chmod 760 file.txt
+
+_________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

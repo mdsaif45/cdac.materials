@@ -1,0 +1,20 @@
+Concepts of Programming & Operating System 
+66 Hours
+
+Getting Started, 
+Variables & Methods, 
+Operators, 
+Conditional and Looping Statements, 
+Objects, 
+Arrays, 
+Introduction to OS,
+Introduction to Linux, 
+Shell Programming, 
+Processes, 
+Signals, 
+Threads, 
+Memory, 
+management, 
+Virtual Memory, 
+Deadlock,
+Inter process communication

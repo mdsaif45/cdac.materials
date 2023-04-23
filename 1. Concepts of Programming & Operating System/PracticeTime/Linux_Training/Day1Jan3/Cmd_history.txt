@@ -1,0 +1,31 @@
+ 321  ls
+  322  pwd
+  323  cd Linux_Training/
+  324  cd ..
+  325  cd Linux_Training/
+  326  pwd
+  327  cd ..
+  328  cd Linux_Training/
+  329  cd Day1Jan3/
+  330  pwd
+  331  mkdir demo
+  332  ls
+  333  cat Notes.txt 
+  334  cd demo/
+  335  pwd
+  336  touch a.txt
+  337  ls
+  338  touch b.txt
+  339  cd ..
+  340  cd /home/sid/Linux_Training/Day1Jan3/demo/
+  341  pwd
+  342  cd ..
+  343  pwd
+  344  cd
+  345  cd /home/sid/Linux_Training/Day1Jan3/demo/
+  346  ls
+  347  cd
+  348  cd /home/sid/Linux_Training/Day1Jan3/demo/
+  349  cd /home/sid
+  350  history 
+
